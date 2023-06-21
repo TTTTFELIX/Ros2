@@ -26,6 +26,7 @@ class NumberCounterNode(Node):
         else:
             response.success = False
             response.message = "Counter has not been reset to 0"
+        return response
 
 
     def callback_number_count(self, msg):
