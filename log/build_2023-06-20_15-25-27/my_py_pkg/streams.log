@@ -1,0 +1,27 @@
+[0.331s] Invoking command in '/home/tom/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/tom/ros2_ws/build/my_py_pkg/prefix_override:/home/tom/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tom/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.462s] running develop
+[0.532s] running egg_info
+[0.532s] writing my_py_pkg.egg-info/PKG-INFO
+[0.532s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.533s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.533s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.533s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.534s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.534s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.535s] running build_ext
+[0.536s] Creating /home/tom/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.536s] Installing add_two_ints_client script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.536s] Installing add_two_ints_client_no_oop script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.536s] Installing add_two_ints_server script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.536s] Installing battery script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.536s] Installing hw_status_publisher script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.536s] Installing led_panel script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.536s] Installing number_counter script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.537s] Installing number_publisher script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.537s] Installing py_node script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.537s] Installing robot_news_station script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.537s] Installing smartphone script to /home/tom/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.537s] 
+[0.537s] Installed /home/tom/ros2_ws/build/my_py_pkg
+[0.537s] running install_data
+[0.554s] Invoked command in '/home/tom/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/tom/ros2_ws/build/my_py_pkg/prefix_override:/home/tom/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tom/ros2_ws/build/my_py_pkg/build --no-deps install_data

@@ -1,0 +1,79 @@
+[0.007s] Invoking command in '/home/tom/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tom/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.029s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.114s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.122s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.305s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.567s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.580s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.580s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.580s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.593s] -- Configuring done
+[0.613s] -- Generating done
+[0.616s] -- Build files have been written to: /home/tom/ros2_ws/build/my_robot_interfaces
+[0.638s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.646s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.652s] [  4%] Built target ament_cmake_python_symlink_my_robot_interfaces
+[0.787s] running egg_info
+[0.788s] writing my_robot_interfaces.egg-info/PKG-INFO
+[0.788s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[0.788s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[0.789s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.790s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.807s] [  4%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[0.870s] [  4%] Built target my_robot_interfaces__cpp
+[0.878s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.884s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.886s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.889s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c[0m
+[0.898s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[0.937s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__functions.c.o[0m
+[0.948s] In file included from [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__functions.h:19[m[K,
+[0.948s]                  from [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__functions.c:4[m[K:
+[0.948s] [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/detail/int64__struct.h: No such file or directory
+[0.949s]    22 | #include [01;31m[K"my_robot_interfaces/msg/detail/int64__struct.h"[m[K
+[0.949s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.949s] compilation terminated.
+[0.950s] gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make:151: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__functions.c.o] Error 1
+[0.950s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/all] Error 2
+[0.950s] gmake[1]: *** Waiting for unfinished jobs....
+[1.045s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_cpp[0m
+[1.055s] [ 17%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_state_array__type_support.cpp.o[0m
+[1.055s] [ 19%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[1.090s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.091s] In file included from [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_state_array__type_support.cpp:7[m[K:
+[1.091s] [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/detail/int64__struct.hpp: No such file or directory
+[1.091s]    20 | #include [01;31m[K"my_robot_interfaces/msg/detail/int64__struct.hpp"[m[K
+[1.091s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.091s] compilation terminated.
+[1.092s] gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/build.make:108: CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_state_array__type_support.cpp.o] Error 1
+[1.092s] gmake[2]: *** Waiting for unfinished jobs....
+[1.099s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.100s] [ 21%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[1.100s] [ 23%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp.o[0m
+[1.110s] [ 25%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[1.143s] In file included from [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp:12[m[K:
+[1.143s] [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/detail/int64__struct.hpp: No such file or directory
+[1.143s]    20 | #include [01;31m[K"my_robot_interfaces/msg/detail/int64__struct.hpp"[m[K
+[1.143s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.143s] compilation terminated.
+[1.144s] gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:119: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp.o] Error 1
+[1.144s] gmake[2]: *** Waiting for unfinished jobs....
+[1.160s] [ 27%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_state_array__type_support.cpp.o[0m
+[1.208s] In file included from [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[1.208s]                  from [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_state_array__type_support.cpp:4[m[K:
+[1.208s] [01m[K/home/tom/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/detail/int64__struct.hpp: No such file or directory
+[1.208s]    20 | #include [01;31m[K"my_robot_interfaces/msg/detail/int64__struct.hpp"[m[K
+[1.208s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.208s] compilation terminated.
+[1.210s] gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:119: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_state_array__type_support.cpp.o] Error 1
+[1.210s] gmake[2]: *** Waiting for unfinished jobs....
+[1.221s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[1.301s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[1.324s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[1.324s] gmake: *** [Makefile:146: all] Error 2
+[1.326s] Invoked command in '/home/tom/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tom/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tom/ros2_ws/build/my_robot_interfaces -- -j4 -l4
